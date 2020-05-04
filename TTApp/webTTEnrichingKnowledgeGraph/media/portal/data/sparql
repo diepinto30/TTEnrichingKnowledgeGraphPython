@@ -1,0 +1,949 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>p</res:resultVariable>
+    <res:resultVariable>o</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>o</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#Thing"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/Person"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/Place"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/Location"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>o</res:variable><res:value rdf:resource="http://www.wikidata.org/entity/Q6256"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/Country"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>o</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>o</res:variable><res:value rdf:resource="http://schema.org/Country"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>o</res:variable><res:value rdf:resource="http://schema.org/Place"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>o</res:variable><res:value rdf:resource="http://umbel.org/umbel/rc/Country"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>o</res:variable><res:value rdf:resource="http://umbel.org/umbel/rc/Location_Underspecified"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>o</res:variable><res:value rdf:resource="http://umbel.org/umbel/rc/PopulatedPlace"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r13">
+      <res:binding rdf:nodeID="r13c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r13c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatFormerOPECMemberStates"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r14">
+      <res:binding rdf:nodeID="r14c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r14c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatSpanish-speakingCountriesAndTerritories"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r15">
+      <res:binding rdf:nodeID="r15c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r15c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatStatesAndTerritoriesEstablishedIn1830"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r16">
+      <res:binding rdf:nodeID="r16c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r16c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatSubdivisionsOfEcuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r17">
+      <res:binding rdf:nodeID="r17c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r17c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r18">
+      <res:binding rdf:nodeID="r18c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r18c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Country108544813"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r19">
+      <res:binding rdf:nodeID="r19c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r19c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/District108552138"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r20">
+      <res:binding rdf:nodeID="r20c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r20c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/GeographicalArea108574314"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r21">
+      <res:binding rdf:nodeID="r21c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r21c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Location100027167"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r22">
+      <res:binding rdf:nodeID="r22c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r22c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Object100002684"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r23">
+      <res:binding rdf:nodeID="r23c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r23c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/PhysicalEntity100001930"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r24">
+      <res:binding rdf:nodeID="r24c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r24c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Region108630985"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r25">
+      <res:binding rdf:nodeID="r25c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r25c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Subdivision108674251"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r26">
+      <res:binding rdf:nodeID="r26c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r26c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/Tract108673395"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r27">
+      <res:binding rdf:nodeID="r27c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r27c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/YagoGeoEntity"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r28">
+      <res:binding rdf:nodeID="r28c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r28c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/YagoLegalActorGeo"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r29">
+      <res:binding rdf:nodeID="r29c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r29c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r30">
+      <res:binding rdf:nodeID="r30c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r30c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatCountries"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r31">
+      <res:binding rdf:nodeID="r31c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r31c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatCountriesInSouthAmerica"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r32">
+      <res:binding rdf:nodeID="r32c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r32c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatMemberStatesOfOPEC"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r33">
+      <res:binding rdf:nodeID="r33c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r33c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatMemberStatesOfTheUnionOfSouthAmericanNations"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r34">
+      <res:binding rdf:nodeID="r34c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/></res:binding>
+      <res:binding rdf:nodeID="r34c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/class/yago/WikicatMemberStatesOfTheUnitedNations"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r35">
+      <res:binding rdf:nodeID="r35c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r35c1"><res:variable>o</res:variable><res:value xml:lang="en">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r36">
+      <res:binding rdf:nodeID="r36c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r36c1"><res:variable>o</res:variable><res:value xml:lang="ar">الإكوادور</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r37">
+      <res:binding rdf:nodeID="r37c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r37c1"><res:variable>o</res:variable><res:value xml:lang="de">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r38">
+      <res:binding rdf:nodeID="r38c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r38c1"><res:variable>o</res:variable><res:value xml:lang="es">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r39">
+      <res:binding rdf:nodeID="r39c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r39c1"><res:variable>o</res:variable><res:value xml:lang="fr">Équateur (pays)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r40">
+      <res:binding rdf:nodeID="r40c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r40c1"><res:variable>o</res:variable><res:value xml:lang="it">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r41">
+      <res:binding rdf:nodeID="r41c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r41c1"><res:variable>o</res:variable><res:value xml:lang="ja">エクアドル</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r42">
+      <res:binding rdf:nodeID="r42c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r42c1"><res:variable>o</res:variable><res:value xml:lang="nl">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r43">
+      <res:binding rdf:nodeID="r43c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r43c1"><res:variable>o</res:variable><res:value xml:lang="pl">Ekwador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r44">
+      <res:binding rdf:nodeID="r44c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r44c1"><res:variable>o</res:variable><res:value xml:lang="pt">Equador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r45">
+      <res:binding rdf:nodeID="r45c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r45c1"><res:variable>o</res:variable><res:value xml:lang="ru">Эквадор</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r46">
+      <res:binding rdf:nodeID="r46c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r46c1"><res:variable>o</res:variable><res:value xml:lang="zh">厄瓜多尔</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r47">
+      <res:binding rdf:nodeID="r47c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r47c1"><res:variable>o</res:variable><res:value xml:lang="de">Ecuador (deutsch auch Ekuador; auf Kichwa Ecuador Mamallakta, spanisch República del Ecuador), ist eine Republik im Nordwesten Südamerikas zwischen Kolumbien und Peru und hat etwa 15 Millionen Einwohner. Die im Andenhochland () auf 2850 m gelegene Hauptstadt heißt Quito; die größte Stadt Guayaquil liegt in der Pazifikküsten-Ebene (genannt ). Das Land ist nach der Äquatorlinie benannt, die durch das Staatsgebiet verläuft, wobei sich der Großteil desselben in der südlichen Hemisphäre befindet. Die zu Ecuador gehörenden Galápagos-Inseln befinden sich zwischen 928 km (kleinste Entfernung) und 1272 km (größte Entfernung) westlich der Küste im Pazifik.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r48">
+      <res:binding rdf:nodeID="r48c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r48c1"><res:variable>o</res:variable><res:value xml:lang="ja">エクアドル共和国（エクアドルきょうわこく、スペイン語: República del Ecuador）、通称エクアドルは、南アメリカ西部に位置する共和制国家である。北にコロンビア、東と南にペルーと国境を接し、西は太平洋に面する。本土から西に1,000km程離れたところにガラパゴス諸島（スペイン語ではコロン諸島:Archipiélago de Colón）を領有する。首都はキト。最大の都市はグアヤキル。なお、国名のエクアドルはスペイン語で赤道を意味する。</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r49">
+      <res:binding rdf:nodeID="r49c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r49c1"><res:variable>o</res:variable><res:value xml:lang="nl">Ecuador, officieel de Republiek Ecuador, is een land in het noordwesten van Zuid-Amerika. Het land grenst in het noorden aan Colombia, in het oosten en zuiden aan Peru, en in het westen aan de Stille Oceaan. Het land is genoemd naar de evenaar (in het Spaans: ecuador), die het land doorsnijdt. De hoofdstad van Ecuador is Quito, de grootste stad van het land is Guayaquil.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r50">
+      <res:binding rdf:nodeID="r50c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r50c1"><res:variable>o</res:variable><res:value xml:lang="pl">Ekwador (Republika Ekwadoru; hiszp. Ecuador, República del Ecuador) – państwo w Ameryce Południowej położone nad Oceanem Spokojnym, jedno z czterech powstałych w wyniku rozpadu Wielkiej Kolumbii w 1830 r. Sąsiaduje od północy z Kolumbią, a od południa z Peru. W skład Ekwadoru wchodzą także położone na Oceanie Spokojnym Wyspy Galapagos – są jego największą atrakcją turystyczną. Nazwa kraju pochodzi od hiszpańskiego słowa oznaczającego równik.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r51">
+      <res:binding rdf:nodeID="r51c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r51c1"><res:variable>o</res:variable><res:value xml:lang="ru">Эквадо́р (исп. Ecuador, кечуа Ikwadur), официальное название Респу́блика Эквадо́р (исп. República del Ecuador [reˈpuβlika ðel ekwaˈðor], кечуа Ikwadur Republika) — государство на северо-западе Южной Америки. Название страны в переводе с испанского означает «экватор». На западе Эквадор омывается Тихим океаном, на севере граничит с Колумбией, на востоке и юге — с Перу. В состав Эквадора входят Галапагосские острова.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r52">
+      <res:binding rdf:nodeID="r52c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r52c1"><res:variable>o</res:variable><res:value xml:lang="zh">厄瓜多爾，全称厄瓜多共和国（西班牙語：República del Ecuador）是一個位於南美洲西北部的國家，北與哥倫比亞相鄰，南接祕魯，西濱太平洋，與智利同為南美洲不與巴西相鄰的國家，另轄有距厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於1809年8月10日時脫離西班牙的统治獨立建國。由於赤道橫貫了厄瓜多的國境，所以西班牙文中以赤道（ecuador）作为国名，因此該國又擁有「赤道国」的別稱，或因為盛產香蕉而又被稱為「香蕉之国」。首都基多位於皮欽查火山的山麓，海拔高達2,850公尺，使該市成為全世界第二高的首都（僅次於玻利維亞首都拉巴斯）。為南美洲國家聯盟的成員國。</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r53">
+      <res:binding rdf:nodeID="r53c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r53c1"><res:variable>o</res:variable><res:value xml:lang="en">(Not to be confused with Equator.)(For other uses, see Ecuador (disambiguation).)
+Ecuador (/ˈɛkwədɔːr/ EK-wə-dor, Spanish: [ekwaˈðor]), officially the Republic of Ecuador (Spanish: República del Ecuador, which literally translates as &quot;Republic of the Equator&quot;), is a representative democratic republic in northwestern South America, bordered by Colombia on the north, Peru on the east and south, and the Pacific Ocean to the west. Ecuador also includes the Galápagos Islands in the Pacific, about 1,000 kilometres (620 mi) west of the mainland.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r54">
+      <res:binding rdf:nodeID="r54c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r54c1"><res:variable>o</res:variable><res:value xml:lang="ar">الإكوادور أو رسميا جمهورية الإكوادور (بالإسبانية:Ecuador) هي جمهورية ديمقراطية تمثيلية في أمريكا الجنوبية، وتحدها كولومبيا من الشمال وبيرو في الشرق والجنوب، والمحيط الهادي إلى الغرب. الإكوادور وتشيلي هما البلدان الوحيدان في أمريكا الجنوبية اللذان ليس لديهما حدود مع البرازيل. ويشمل أيضا الإكوادور جزر غالاباغوس في المحيط الهادئ، على بعد حوالى 1،000 كيلومترا (620 ميل) إلى الغرب من البر الرئيسى.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r55">
+      <res:binding rdf:nodeID="r55c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r55c1"><res:variable>o</res:variable><res:value xml:lang="es">Ecuador, oficialmente denominado República del Ecuador, es un país latinoamericano ubicado en la parte noroccidental de Sudamérica. Limita al norte con Colombia y al sur y al este con Perú. El océano Pacífico baña la costa occidental y lo separa de las Islas Galápagos, ubicadas mil kilómetros al oeste. Una sección volcánica de la cordillera de los Andes surca el territorio de norte a sur, dejando a su flanco occidental el golfo de Guayaquil y una llanura boscosa, y al oriente, la Amazonía. Ecuador ocupa un área de 283.561 km², por lo que se trata del cuarto país más pequeño del subcontinente. Es el octavo país más poblado de Latinoamérica, con algo más de 16 millones de habitantes, y el más densamente poblado de América del Sur y el quinto en el continente. Es el estado con la más alta con</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r56">
+      <res:binding rdf:nodeID="r56c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r56c1"><res:variable>o</res:variable><res:value xml:lang="fr">L’Équateur, en forme longue la République d&#39;Équateur ou la République de l&#39;Équateur, en espagnol Ecuador et República del Ecuador, est un pays d&#39;Amérique du Sud, frontalier du Pérou au sud et à l&#39;est et de la Colombie au nord et à l&#39;est, baigné à l&#39;ouest par l&#39;océan Pacifique. Ses habitants sont les Équatoriens. Sa superficie est de 283 520 km2, partagée en trois grandes régions : la côte du Pacifique, où se trouve la principale ville du pays (Guayaquil), la partie andine du pays, où se trouve la capitale Quito, et l&#39;Amazonie équatorienne, dans l&#39;est du pays. Les deux premières de ces régions concentrent l&#39;essentiel de la population et de l&#39;activité économique du pays, tandis que la partie amazonienne, moins peuplée, recèle des ressources significatives en hydrocarbures, ainsi qu&#39;une biodi</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r57">
+      <res:binding rdf:nodeID="r57c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r57c1"><res:variable>o</res:variable><res:value xml:lang="pt">Equador (pronunciado em português europeu: [ekwɐˈdoɾ, ikwɐˈdoɾ]; pronunciado em português brasileiro: [ekwaˈdoʁ]; em espanhol: Ecuador, pronunciado: [ekwaˈðor]), oficialmente República do Equador (em espanhol: República del Ecuador), é uma república democrática representativa localizada na América do Sul limitada a norte pela Colômbia, a leste e sul pelo Peru e a oeste pelo oceano Pacífico. É um dos dois países da região que não tem fronteiras comuns com o Brasil, além do Chile. Além do território continental, o Equador possui também as ilhas Galápagos, a cerca de 1 000 km do território continental, sendo o país mais próximo daquelas ilhas. Seu território de 256 370 km² é cortado ao meio pela imaginária linha do Equador.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r58">
+      <res:binding rdf:nodeID="r58c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/></res:binding>
+      <res:binding rdf:nodeID="r58c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Equator"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r59">
+      <res:binding rdf:nodeID="r59c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/></res:binding>
+      <res:binding rdf:nodeID="r59c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ecuadorian_real"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r60">
+      <res:binding rdf:nodeID="r60c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/></res:binding>
+      <res:binding rdf:nodeID="r60c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Emigration_from_Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r61">
+      <res:binding rdf:nodeID="r61c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/></res:binding>
+      <res:binding rdf:nodeID="r61c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Foods"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r62">
+      <res:binding rdf:nodeID="r62c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/></res:binding>
+      <res:binding rdf:nodeID="r62c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/List_of_Ecuadorian_dishes"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r63">
+      <res:binding rdf:nodeID="r63c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r63c1"><res:variable>o</res:variable><res:value rdf:resource="http://cs.dbpedia.org/resource/Ekvádor"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r64">
+      <res:binding rdf:nodeID="r64c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r64c1"><res:variable>o</res:variable><res:value rdf:resource="http://de.dbpedia.org/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r65">
+      <res:binding rdf:nodeID="r65c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r65c1"><res:variable>o</res:variable><res:value rdf:resource="http://el.dbpedia.org/resource/Ισημερινός_(χώρα)"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r66">
+      <res:binding rdf:nodeID="r66c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r66c1"><res:variable>o</res:variable><res:value rdf:resource="http://es.dbpedia.org/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r67">
+      <res:binding rdf:nodeID="r67c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r67c1"><res:variable>o</res:variable><res:value rdf:resource="http://eu.dbpedia.org/resource/Ekuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r68">
+      <res:binding rdf:nodeID="r68c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r68c1"><res:variable>o</res:variable><res:value rdf:resource="http://fr.dbpedia.org/resource/Équateur_(pays)"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r69">
+      <res:binding rdf:nodeID="r69c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r69c1"><res:variable>o</res:variable><res:value rdf:resource="http://id.dbpedia.org/resource/Ekuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r70">
+      <res:binding rdf:nodeID="r70c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r70c1"><res:variable>o</res:variable><res:value rdf:resource="http://it.dbpedia.org/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r71">
+      <res:binding rdf:nodeID="r71c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r71c1"><res:variable>o</res:variable><res:value rdf:resource="http://ja.dbpedia.org/resource/エクアドル"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r72">
+      <res:binding rdf:nodeID="r72c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r72c1"><res:variable>o</res:variable><res:value rdf:resource="http://ko.dbpedia.org/resource/에콰도르"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r73">
+      <res:binding rdf:nodeID="r73c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r73c1"><res:variable>o</res:variable><res:value rdf:resource="http://nl.dbpedia.org/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r74">
+      <res:binding rdf:nodeID="r74c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r74c1"><res:variable>o</res:variable><res:value rdf:resource="http://pl.dbpedia.org/resource/Ekwador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r75">
+      <res:binding rdf:nodeID="r75c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r75c1"><res:variable>o</res:variable><res:value rdf:resource="http://pt.dbpedia.org/resource/Equador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r76">
+      <res:binding rdf:nodeID="r76c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r76c1"><res:variable>o</res:variable><res:value rdf:resource="http://wikidata.dbpedia.org/resource/Q736"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r77">
+      <res:binding rdf:nodeID="r77c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r77c1"><res:variable>o</res:variable><res:value rdf:resource="http://eurostat.linked-statistics.org/dic/c_ctrl#EC"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r78">
+      <res:binding rdf:nodeID="r78c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r78c1"><res:variable>o</res:variable><res:value rdf:resource="http://www.wikidata.org/entity/Q736"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r79">
+      <res:binding rdf:nodeID="r79c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r79c1"><res:variable>o</res:variable><res:value rdf:resource="http://openei.org/resources/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r80">
+      <res:binding rdf:nodeID="r80c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r80c1"><res:variable>o</res:variable><res:value rdf:resource="http://www4.wiwiss.fu-berlin.de/factbook/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r81">
+      <res:binding rdf:nodeID="r81c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r81c1"><res:variable>o</res:variable><res:value rdf:resource="http://sws.geonames.org/3658394/"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r82">
+      <res:binding rdf:nodeID="r82c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r82c1"><res:variable>o</res:variable><res:value rdf:resource="http://data.nytimes.com/47703814005373489761"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r83">
+      <res:binding rdf:nodeID="r83c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r83c1"><res:variable>o</res:variable><res:value rdf:resource="http://ghodata/r6-c58"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r84">
+      <res:binding rdf:nodeID="r84c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r84c1"><res:variable>o</res:variable><res:value rdf:resource="http://linkedgeodata.org/triplify/node424298227"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r85">
+      <res:binding rdf:nodeID="r85c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r85c1"><res:variable>o</res:variable><res:value rdf:resource="http://transparency.270a.info/classification/country/EC"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r86">
+      <res:binding rdf:nodeID="r86c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r86c1"><res:variable>o</res:variable><res:value rdf:resource="http://sw.cyc.com/concept/Mx4rvVjpApwpEbGdrcN5Y29ycA"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r87">
+      <res:binding rdf:nodeID="r87c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r87c1"><res:variable>o</res:variable><res:value rdf:resource="http://rdf.freebase.com/ns/m.02k1b"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r88">
+      <res:binding rdf:nodeID="r88c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r88c1"><res:variable>o</res:variable><res:value rdf:resource="http://worldbank.270a.info/classification/country/EC"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r89">
+      <res:binding rdf:nodeID="r89c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r89c1"><res:variable>o</res:variable><res:value rdf:resource="http://yago-knowledge.org/resource/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r90">
+      <res:binding rdf:nodeID="r90c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r90c1"><res:variable>o</res:variable><res:value rdf:resource="http://yago-knowledge.org/resource/Regions_of_Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r91">
+      <res:binding rdf:nodeID="r91c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/></res:binding>
+      <res:binding rdf:nodeID="r91c1"><res:variable>o</res:variable><res:value rdf:resource="http://d-nb.info/gnd/4129321-6"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r92">
+      <res:binding rdf:nodeID="r92c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r92c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Andean_Community"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r93">
+      <res:binding rdf:nodeID="r93c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r93c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Countries_in_South_America"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r94">
+      <res:binding rdf:nodeID="r94c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r94c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r95">
+      <res:binding rdf:nodeID="r95c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r95c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Former_Spanish_colonies"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r96">
+      <res:binding rdf:nodeID="r96c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r96c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Member_states_of_OPEC"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r97">
+      <res:binding rdf:nodeID="r97c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r97c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Member_states_of_the_Union_of_South_American_Nations"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r98">
+      <res:binding rdf:nodeID="r98c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r98c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Member_states_of_the_United_Nations"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r99">
+      <res:binding rdf:nodeID="r99c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r99c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Republics"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r100">
+      <res:binding rdf:nodeID="r100c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r100c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:Spanish-speaking_countries_and_territories"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r101">
+      <res:binding rdf:nodeID="r101c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/dc/terms/subject"/></res:binding>
+      <res:binding rdf:nodeID="r101c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Category:States_and_territories_established_in_1830"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r102">
+      <res:binding rdf:nodeID="r102c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageID"/></res:binding>
+      <res:binding rdf:nodeID="r102c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">9334</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r103">
+      <res:binding rdf:nodeID="r103c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageRevisionID"/></res:binding>
+      <res:binding rdf:nodeID="r103c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">745190719</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r104">
+      <res:binding rdf:nodeID="r104c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/></res:binding>
+      <res:binding rdf:nodeID="r104c1"><res:variable>o</res:variable><res:value rdf:resource="https://www.presidencia.gob.ec/"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r105">
+      <res:binding rdf:nodeID="r105c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/></res:binding>
+      <res:binding rdf:nodeID="r105c1"><res:variable>o</res:variable><res:value rdf:resource="http://news.bbc.co.uk/2/hi/americas/country_profiles/1212882.stm"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r106">
+      <res:binding rdf:nodeID="r106c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/></res:binding>
+      <res:binding rdf:nodeID="r106c1"><res:variable>o</res:variable><res:value rdf:resource="https://www.cia.gov/library/publications/world-leaders-1/world-leaders-e/ecuador.html"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r107">
+      <res:binding rdf:nodeID="r107c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/></res:binding>
+      <res:binding rdf:nodeID="r107c1"><res:variable>o</res:variable><res:value rdf:resource="http://ucblibraries.colorado.edu/govpubs/for/ecuador.htm"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r108">
+      <res:binding rdf:nodeID="r108c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/wikiPageExternalLink"/></res:binding>
+      <res:binding rdf:nodeID="r108c1"><res:variable>o</res:variable><res:value rdf:resource="http://www.rotaryecuador.org"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r109">
+      <res:binding rdf:nodeID="r109c0"><res:variable>p</res:variable><res:value rdf:resource="http://xmlns.com/foaf/0.1/name"/></res:binding>
+      <res:binding rdf:nodeID="r109c1"><res:variable>o</res:variable><res:value xml:lang="en">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r110">
+      <res:binding rdf:nodeID="r110c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/></res:binding>
+      <res:binding rdf:nodeID="r110c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#float">-2.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r111">
+      <res:binding rdf:nodeID="r111c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/></res:binding>
+      <res:binding rdf:nodeID="r111c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#float">-0.15</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r112">
+      <res:binding rdf:nodeID="r112c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/></res:binding>
+      <res:binding rdf:nodeID="r112c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#float">-78.35</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r113">
+      <res:binding rdf:nodeID="r113c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/></res:binding>
+      <res:binding rdf:nodeID="r113c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#float">-77.5</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r114">
+      <res:binding rdf:nodeID="r114c0"><res:variable>p</res:variable><res:value rdf:resource="http://xmlns.com/foaf/0.1/depiction"/></res:binding>
+      <res:binding rdf:nodeID="r114c1"><res:variable>o</res:variable><res:value rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ecuador.svg"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r115">
+      <res:binding rdf:nodeID="r115c0"><res:variable>p</res:variable><res:value rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/></res:binding>
+      <res:binding rdf:nodeID="r115c1"><res:variable>o</res:variable><res:value rdf:resource="http://en.wikipedia.org/wiki/Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r116">
+      <res:binding rdf:nodeID="r116c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"/></res:binding>
+      <res:binding rdf:nodeID="r116c1"><res:variable>o</res:variable><res:value datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">POINT(-78.349998474121 -2)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r117">
+      <res:binding rdf:nodeID="r117c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"/></res:binding>
+      <res:binding rdf:nodeID="r117c1"><res:variable>o</res:variable><res:value datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">POINT(-78.349998474121 -0.15000000596046)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r118">
+      <res:binding rdf:nodeID="r118c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"/></res:binding>
+      <res:binding rdf:nodeID="r118c1"><res:variable>o</res:variable><res:value datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">POINT(-77.5 -2)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r119">
+      <res:binding rdf:nodeID="r119c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#geometry"/></res:binding>
+      <res:binding rdf:nodeID="r119c1"><res:variable>o</res:variable><res:value datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry">POINT(-77.5 -0.15000000596046)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r120">
+      <res:binding rdf:nodeID="r120c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/thumbnail"/></res:binding>
+      <res:binding rdf:nodeID="r120c1"><res:variable>o</res:variable><res:value rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Ecuador.svg?width=300"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r121">
+      <res:binding rdf:nodeID="r121c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/></res:binding>
+      <res:binding rdf:nodeID="r121c1"><res:variable>o</res:variable><res:value rdf:resource="http://en.wikipedia.org/wiki/Ecuador?oldid=745190719"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r122">
+      <res:binding rdf:nodeID="r122c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"/></res:binding>
+      <res:binding rdf:nodeID="r122c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/squareKilometre">283560.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r123">
+      <res:binding rdf:nodeID="r123c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/PopulatedPlace/areaTotal"/></res:binding>
+      <res:binding rdf:nodeID="r123c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/squareKilometre">283562.2582720266</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r124">
+      <res:binding rdf:nodeID="r124c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/PopulatedPlace/populationDensity"/></res:binding>
+      <res:binding rdf:nodeID="r124c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/inhabitantsPerSquareKilometre">58.95</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r125">
+      <res:binding rdf:nodeID="r125c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/PopulatedPlace/populationDensity"/></res:binding>
+      <res:binding rdf:nodeID="r125c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/inhabitantsPerSquareKilometre">58.95393858784607</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r126">
+      <res:binding rdf:nodeID="r126c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r126c1"><res:variable>o</res:variable><res:value xml:lang="en">(Not to be confused with Equator.)(For other uses, see Ecuador (disambiguation).)
+Ecuador (/ˈɛkwədɔːr/ EK-wə-dor, Spanish: [ekwaˈðor]), officially the Republic of Ecuador (Spanish: República del Ecuador, which literally translates as &quot;Republic of the Equator&quot;), is a representative democratic republic in northwestern South America, bordered by Colombia on the north, Peru on the east and south, and the Pacific Ocean to the west. Ecuador also includes the Galápagos Islands in the Pacific, about 1,000 kilometres (620 mi) west of the mainland. What is now Ecuador was home to a variety of Amerindian groups that were gradually incorporated into the Inca Empire during the 15th century. The territory was colonized by Spain during the 16th century, achieving independence in 1820 as part of Gran Colombia, from which it emerged as its own sovereign state in 1830. The legacy of both empires is reflected in Ecuador&#39;s ethnically diverse population, with most of its 15.2 million people being mestizos, followed by large minorities of European, Amerindian, and African descendants. Spanish is the official language and is spoken by a majority of the population, though 13 Amerindian languages are also recognized, including Quichua and Shuar. The capital city is Quito, while the largest city is Guayaquil. In reflection of the country&#39;s rich cultural heritage, the historical center of Quito was declared a UNESCO World Heritage Site in 1978. Cuenca, the third-largest city, was also declared a World Heritage Site in 1999 as an outstanding example of a planned, inland Spanish-style colonial city in the Americas. Ecuador has a developing economy that is highly dependent on commodities, namely petroleum and agricultural products. The country is classified as a medium-income country. Ecuador is a democratic presidential republic. The new constitution of 2008 is the first in the world to recognize legally enforceable Rights of Nature, or ecosystem rights. Ecuador is also known for its rich ecology, hosting many endemic plants and animals, such as those of the Galápagos Islands. It is one of 17 megadiverse countries in the world.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r127">
+      <res:binding rdf:nodeID="r127c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r127c1"><res:variable>o</res:variable><res:value xml:lang="ar">الإكوادور أو رسميا جمهورية الإكوادور (بالإسبانية:Ecuador) هي جمهورية ديمقراطية تمثيلية في أمريكا الجنوبية، وتحدها كولومبيا من الشمال وبيرو في الشرق والجنوب، والمحيط الهادي إلى الغرب. الإكوادور وتشيلي هما البلدان الوحيدان في أمريكا الجنوبية اللذان ليس لديهما حدود مع البرازيل. ويشمل أيضا الإكوادور جزر غالاباغوس في المحيط الهادئ، على بعد حوالى 1،000 كيلومترا (620 ميل) إلى الغرب من البر الرئيسى. اللغة المحلية الرئيسية في الإكوادور هي الإسبانية (94% من السكان). وتشمل لغات استعمال الرسمي في المجتمعات الأصلية الكيتشوا، الشوار، و11 لغات أخرى. الإكوادور لديه أرض مساحتها 283520 كم2. المدينة عاصمتها كيتو، الذي أعلن من مواقع التراث العالمي من قبل اليونسكو في 1970 لحصوله على المركز التاريخي الحفاظ على أفضل وأقل تغير في أمريكا اللاتينية. أكبر مدينة في البلاد هو غواياكيل. المركز التاريخي لكوينكا، ثالث أكبر مدينة في البلاد من حيث الحجم واقتصاديا, وأعلن أيضا من مواقع التراث العالمي في عام 1999 كمثال بارز على المخطط، الداخلية على الطراز الإسباني مدينة استعمارية في الأمريكتين. الإكوادور في المرتبة 71 حاليا من أجل المنافسة العالمية. الإكوادور هي أيضا موطن لمجموعة كبيرة ومتنوعة من الأنواع، وكثير منهم المتوطنة، مثل تلك التي من جزر غالاباغوس. هذا التنوع يجعل الأنواع الإكوادور واحدة من سبعة عشر بلدا ذات التنوع البيولوجي الشديد في العالم. الدستور الجديد لعام 2008 هو الأول من نوعه في العالم على الاعتراف بالحقوق واجب النفاذ قانونا من الطبيعة، أو حقوق الأنظمة الإيكولوجية. الإكوادور هي جمهورية رئاسية أصبح ومستقلة في عام 1830 بعد أن كانت جزءا من الإمبراطورية الاستعمارية الإسبانية ولفترة أقصر بكثير، من جمهورية كولومبيا الكبرى. فهي دولة متوسطة الدخل مع علامة HDI من 0.720 (2011).</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r128">
+      <res:binding rdf:nodeID="r128c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r128c1"><res:variable>o</res:variable><res:value xml:lang="de">Ecuador (deutsch auch Ekuador; auf Kichwa Ecuador Mamallakta, spanisch República del Ecuador), ist eine Republik im Nordwesten Südamerikas zwischen Kolumbien und Peru und hat etwa 15 Millionen Einwohner. Die im Andenhochland () auf 2850 m gelegene Hauptstadt heißt Quito; die größte Stadt Guayaquil liegt in der Pazifikküsten-Ebene (genannt ). Das Land ist nach der Äquatorlinie benannt, die durch das Staatsgebiet verläuft, wobei sich der Großteil desselben in der südlichen Hemisphäre befindet. Die zu Ecuador gehörenden Galápagos-Inseln befinden sich zwischen 928 km (kleinste Entfernung) und 1272 km (größte Entfernung) westlich der Küste im Pazifik.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r129">
+      <res:binding rdf:nodeID="r129c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r129c1"><res:variable>o</res:variable><res:value xml:lang="es">Ecuador, oficialmente denominado República del Ecuador, es un país latinoamericano ubicado en la parte noroccidental de Sudamérica. Limita al norte con Colombia y al sur y al este con Perú. El océano Pacífico baña la costa occidental y lo separa de las Islas Galápagos, ubicadas mil kilómetros al oeste. Una sección volcánica de la cordillera de los Andes surca el territorio de norte a sur, dejando a su flanco occidental el golfo de Guayaquil y una llanura boscosa, y al oriente, la Amazonía. Ecuador ocupa un área de 283.561 km², por lo que se trata del cuarto país más pequeño del subcontinente. Es el octavo país más poblado de Latinoamérica, con algo más de 16 millones de habitantes, y el más densamente poblado de América del Sur y el quinto en el continente. Es el estado con la más alta concentración de ríos por km2 en el mundo, el de mayor diversidad por km2 y uno de los países con mayor biodiversidad. La capital del país es Quito y la ciudad más poblada, Guayaquil. La lengua oficial es el español, hablado por un 98% de la población, junto a otras trece lenguas indígenas reconocidas, incluyendo kichwa y shuar. Para el 2015, el Índice de Desarrollo Humano de Ecuador es catalogado como &quot;alto&quot;, ubicándose en el puesto 88 a nivel mundial y 11 a nivel de América Latina, tras Perú y delante de Colombia. Con un PBI PPA de 172 100 millones de dólares, la economía ecuatoriana ocupa el puesto número 62 a nivel mundial y el séptimo de Sudamérica. El país es un importante exportador de petróleo y consta como el principal exportador de banano a nivel mundial y uno de los principales de flores, camarones y cacao. Ecuador recibió en 2014 aproximadamente 1,3 millones de turistas extranjeros, lo cual posiciona al país como uno de los referentes regionales en recepción de turismo internacional. Los primeros asentamientos humanos en el territorio se remontan al 12 000 a. C. (El Inga, Chobshi, Cubilán, Las Vegas). El Imperio incaico conquistó parcialmente la región a mediados del siglo XV, y en 1543 comenzó la conquista española, tras la que permaneció como colonia durante casi trescientos años. La época independentista tuvo sus orígenes en 1809 e inició el proceso emancipador comprendido desde 1820 hasta 1822. Después de la definitiva independencia del dominio español, parte del territorio se integró rápidamente en la Gran Colombia, mientras el territorio del litoral permaneció independiente hasta la anexión manu militari por Simón Bolívar. En 1830 los territorios colombianos del sur se separaron y se creó la nación ecuatoriana. Desde los inicios de la república existió inestabilidad política, lo que condujo al origen de varias revoluciones a lo largo del siglo XIX y conflictos limítrofes con Colombia. El siglo XX estuvo marcado por los conflictos limítrofes con el Perú y la conformación de gobiernos militares. En 1979, el país volvió al sistema democrático, aunque la inestabilidad política entre 1996 a 2006 llevó a una crisis económica, política y social que condujo a la dolarización de su economía y al derrocamiento de tres presidentes antes de terminar su mandato. Desde que Rafael Correa asumiera la Presidencia de la nación tras las elecciones de 2006, la situación política se encuentra relativamente estable.[cita requerida]</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r130">
+      <res:binding rdf:nodeID="r130c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r130c1"><res:variable>o</res:variable><res:value xml:lang="fr">L’Équateur, en forme longue la République d&#39;Équateur ou la République de l&#39;Équateur, en espagnol Ecuador et República del Ecuador, est un pays d&#39;Amérique du Sud, frontalier du Pérou au sud et à l&#39;est et de la Colombie au nord et à l&#39;est, baigné à l&#39;ouest par l&#39;océan Pacifique. Ses habitants sont les Équatoriens. Sa superficie est de 283 520 km2, partagée en trois grandes régions : la côte du Pacifique, où se trouve la principale ville du pays (Guayaquil), la partie andine du pays, où se trouve la capitale Quito, et l&#39;Amazonie équatorienne, dans l&#39;est du pays. Les deux premières de ces régions concentrent l&#39;essentiel de la population et de l&#39;activité économique du pays, tandis que la partie amazonienne, moins peuplée, recèle des ressources significatives en hydrocarbures, ainsi qu&#39;une biodiversité extrêmement importante. À ces trois régions continentales, il faut ajouter une région insulaire formée par les îles Galápagos, situées dans l&#39;océan Pacifique à un millier de kilomètres à l&#39;ouest de la côte. Depuis son indépendance de l&#39;Espagne en 1822, l&#39;Équateur est une République, aujourd&#39;hui divisée en vingt-quatre provinces. La Constitution de 2008 le définit comme un État interculturel et plurinational : si l&#39;espagnol est la langue officielle de la République, des nations indigènes sont reconnues, et le kichwa et le shuar ont un statut de langues de relations interculturelles. Les principales exportations du pays sont les hydrocarbures et des produits agricoles tels que les bananes, les roses ou les crevettes. L’Équateur est membre de l&#39;Alliance bolivarienne pour les Amériques (ALBA) depuis 2009.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r131">
+      <res:binding rdf:nodeID="r131c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r131c1"><res:variable>o</res:variable><res:value xml:lang="ja">エクアドル共和国（エクアドルきょうわこく、スペイン語: República del Ecuador）、通称エクアドルは、南アメリカ西部に位置する共和制国家である。北にコロンビア、東と南にペルーと国境を接し、西は太平洋に面する。本土から西に1,000km程離れたところにガラパゴス諸島（スペイン語ではコロン諸島:Archipiélago de Colón）を領有する。首都はキト。最大の都市はグアヤキル。なお、国名のエクアドルはスペイン語で赤道を意味する。</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r132">
+      <res:binding rdf:nodeID="r132c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r132c1"><res:variable>o</res:variable><res:value xml:lang="nl">Ecuador, officieel de Republiek Ecuador, is een land in het noordwesten van Zuid-Amerika. Het land grenst in het noorden aan Colombia, in het oosten en zuiden aan Peru, en in het westen aan de Stille Oceaan. Het land is genoemd naar de evenaar (in het Spaans: ecuador), die het land doorsnijdt. De hoofdstad van Ecuador is Quito, de grootste stad van het land is Guayaquil.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r133">
+      <res:binding rdf:nodeID="r133c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r133c1"><res:variable>o</res:variable><res:value xml:lang="pl">Ekwador (Republika Ekwadoru; hiszp. Ecuador, República del Ecuador) – państwo w Ameryce Południowej położone nad Oceanem Spokojnym, jedno z czterech powstałych w wyniku rozpadu Wielkiej Kolumbii w 1830 r. Sąsiaduje od północy z Kolumbią, a od południa z Peru. W skład Ekwadoru wchodzą także położone na Oceanie Spokojnym Wyspy Galapagos – są jego największą atrakcją turystyczną. Nazwa kraju pochodzi od hiszpańskiego słowa oznaczającego równik.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r134">
+      <res:binding rdf:nodeID="r134c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r134c1"><res:variable>o</res:variable><res:value xml:lang="pt">Equador (pronunciado em português europeu: [ekwɐˈdoɾ, ikwɐˈdoɾ]; pronunciado em português brasileiro: [ekwaˈdoʁ]; em espanhol: Ecuador, pronunciado: [ekwaˈðor]), oficialmente República do Equador (em espanhol: República del Ecuador), é uma república democrática representativa localizada na América do Sul limitada a norte pela Colômbia, a leste e sul pelo Peru e a oeste pelo oceano Pacífico. É um dos dois países da região que não tem fronteiras comuns com o Brasil, além do Chile. Além do território continental, o Equador possui também as ilhas Galápagos, a cerca de 1 000 km do território continental, sendo o país mais próximo daquelas ilhas. Seu território de 256 370 km² é cortado ao meio pela imaginária linha do Equador. A principal língua falada no país é o espanhol (94% da população). Entre os idiomas oficiais em comunidades nativas estão o quíchua, o shuar e onze outros idiomas. A sua capital é a cidade de São Francisco de Quito, mas comumente conhecida como Quito, que foi declarada Patrimônio da Humanidade pela UNESCO em 1970, por ter o centro histórico mais bem preservado e menos alterado da América Latina. A maior cidade equatoriana, no entanto, é Guayaquil. O centro histórico de Cuenca, a terceira maior cidade do país, foi declarado Patrimônio Mundial em 1999, como um exemplo notável de uma cidade planejada, de estilo espanhol colonial, no interior da América. O país é o lar de uma grande variedade de espécies endêmicas, muitas delas nas ilhas Galápagos. Esta diversidade de espécies faz do Equador um dos dezessete países megadiversos do mundo, sendo considerado o país de maior biodiversidade do mundo por unidade de área. A nova constituição de 2008 é a primeira no mundo a reconhecer legalmente os direitos da natureza, ou dos ecossistemas. O Equador é uma república presidencial. Tornou-se independente em 1830, depois de ter feito parte do império colonial espanhol e, por um tempo muito mais curto, da República da Grã-Colômbia. O país tem renda média, com um índice de desenvolvimento humano (IDH) de 0,724 (2012), pontuação considerada elevada pelas Nações Unidas.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r135">
+      <res:binding rdf:nodeID="r135c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r135c1"><res:variable>o</res:variable><res:value xml:lang="ru">Эквадо́р (исп. Ecuador, кечуа Ikwadur), официальное название Респу́блика Эквадо́р (исп. República del Ecuador [reˈpuβlika ðel ekwaˈðor], кечуа Ikwadur Republika) — государство на северо-западе Южной Америки. Название страны в переводе с испанского означает «экватор». На западе Эквадор омывается Тихим океаном, на севере граничит с Колумбией, на востоке и юге — с Перу. В состав Эквадора входят Галапагосские острова.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r136">
+      <res:binding rdf:nodeID="r136c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r136c1"><res:variable>o</res:variable><res:value xml:lang="zh">厄瓜多爾，全称厄瓜多共和国（西班牙語：República del Ecuador）是一個位於南美洲西北部的國家，北與哥倫比亞相鄰，南接祕魯，西濱太平洋，與智利同為南美洲不與巴西相鄰的國家，另轄有距厄瓜多本土1,000公里的加拉巴哥群島。 厄瓜多於1809年8月10日時脫離西班牙的统治獨立建國。由於赤道橫貫了厄瓜多的國境，所以西班牙文中以赤道（ecuador）作为国名，因此該國又擁有「赤道国」的別稱，或因為盛產香蕉而又被稱為「香蕉之国」。首都基多位於皮欽查火山的山麓，海拔高達2,850公尺，使該市成為全世界第二高的首都（僅次於玻利維亞首都拉巴斯）。為南美洲國家聯盟的成員國。</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r137">
+      <res:binding rdf:nodeID="r137c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/areaTotal"/></res:binding>
+      <res:binding rdf:nodeID="r137c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.8356e+11</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r138">
+      <res:binding rdf:nodeID="r138c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/areaTotal"/></res:binding>
+      <res:binding rdf:nodeID="r138c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">2.83562e+11</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r139">
+      <res:binding rdf:nodeID="r139c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/capital"/></res:binding>
+      <res:binding rdf:nodeID="r139c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Quito"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r140">
+      <res:binding rdf:nodeID="r140c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/currency"/></res:binding>
+      <res:binding rdf:nodeID="r140c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/United_States_dollar"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r141">
+      <res:binding rdf:nodeID="r141c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/demonym"/></res:binding>
+      <res:binding rdf:nodeID="r141c1"><res:variable>o</res:variable><res:value xml:lang="en">Ecuadorian</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r142">
+      <res:binding rdf:nodeID="r142c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/ethnicGroup"/></res:binding>
+      <res:binding rdf:nodeID="r142c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Mestizo"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r143">
+      <res:binding rdf:nodeID="r143c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/ethnicGroup"/></res:binding>
+      <res:binding rdf:nodeID="r143c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Indigenous_peoples_in_Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r144">
+      <res:binding rdf:nodeID="r144c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/ethnicGroup"/></res:binding>
+      <res:binding rdf:nodeID="r144c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Montubio"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r145">
+      <res:binding rdf:nodeID="r145c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/ethnicGroup"/></res:binding>
+      <res:binding rdf:nodeID="r145c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Afroecuatoriano"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r146">
+      <res:binding rdf:nodeID="r146c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/ethnicGroup"/></res:binding>
+      <res:binding rdf:nodeID="r146c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/White_Latin_American"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r147">
+      <res:binding rdf:nodeID="r147c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/flag"/></res:binding>
+      <res:binding rdf:nodeID="r147c1"><res:variable>o</res:variable><res:value>Flag of Ecuador.svg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r148">
+      <res:binding rdf:nodeID="r148c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/foundingDate"/></res:binding>
+      <res:binding rdf:nodeID="r148c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#date">1809-08-10</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r149">
+      <res:binding rdf:nodeID="r149c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/foundingDate"/></res:binding>
+      <res:binding rdf:nodeID="r149c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#date">1822-05-24</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r150">
+      <res:binding rdf:nodeID="r150c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/governmentType"/></res:binding>
+      <res:binding rdf:nodeID="r150c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Unitary_state"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r151">
+      <res:binding rdf:nodeID="r151c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/language"/></res:binding>
+      <res:binding rdf:nodeID="r151c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Spanish_language"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r152">
+      <res:binding rdf:nodeID="r152c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/language"/></res:binding>
+      <res:binding rdf:nodeID="r152c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Shuar_language"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r153">
+      <res:binding rdf:nodeID="r153c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/language"/></res:binding>
+      <res:binding rdf:nodeID="r153c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Kichwa"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r154">
+      <res:binding rdf:nodeID="r154c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/largestCity"/></res:binding>
+      <res:binding rdf:nodeID="r154c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Guayaquil"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r155">
+      <res:binding rdf:nodeID="r155c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/leader"/></res:binding>
+      <res:binding rdf:nodeID="r155c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Jorge_Glas"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r156">
+      <res:binding rdf:nodeID="r156c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/leader"/></res:binding>
+      <res:binding rdf:nodeID="r156c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Rafael_Correa"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r157">
+      <res:binding rdf:nodeID="r157c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/leaderTitle"/></res:binding>
+      <res:binding rdf:nodeID="r157c1"><res:variable>o</res:variable><res:value xml:lang="en">President</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r158">
+      <res:binding rdf:nodeID="r158c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/leaderTitle"/></res:binding>
+      <res:binding rdf:nodeID="r158c1"><res:variable>o</res:variable><res:value xml:lang="en">Vice President</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r159">
+      <res:binding rdf:nodeID="r159c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/longName"/></res:binding>
+      <res:binding rdf:nodeID="r159c1"><res:variable>o</res:variable><res:value xml:lang="en">Republic of Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r160">
+      <res:binding rdf:nodeID="r160c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/officialLanguage"/></res:binding>
+      <res:binding rdf:nodeID="r160c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Spanish_language"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r161">
+      <res:binding rdf:nodeID="r161c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/percentageOfAreaWater"/></res:binding>
+      <res:binding rdf:nodeID="r161c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#float">5.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r162">
+      <res:binding rdf:nodeID="r162c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/populationDensity"/></res:binding>
+      <res:binding rdf:nodeID="r162c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">58.95</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r163">
+      <res:binding rdf:nodeID="r163c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/populationDensity"/></res:binding>
+      <res:binding rdf:nodeID="r163c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">58.9539</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r164">
+      <res:binding rdf:nodeID="r164c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/populationTotal"/></res:binding>
+      <res:binding rdf:nodeID="r164c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16144000</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r165">
+      <res:binding rdf:nodeID="r165c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/regionalLanguage"/></res:binding>
+      <res:binding rdf:nodeID="r165c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Shuar_language"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r166">
+      <res:binding rdf:nodeID="r166c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/regionalLanguage"/></res:binding>
+      <res:binding rdf:nodeID="r166c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Kichwa"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r167">
+      <res:binding rdf:nodeID="r167c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/timeZone"/></res:binding>
+      <res:binding rdf:nodeID="r167c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ecuador_Time"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r168">
+      <res:binding rdf:nodeID="r168c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.georss.org/georss/point"/></res:binding>
+      <res:binding rdf:nodeID="r168c1"><res:variable>o</res:variable><res:value>-0.15 -78.35</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r169">
+      <res:binding rdf:nodeID="r169c0"><res:variable>p</res:variable><res:value rdf:resource="http://www.georss.org/georss/point"/></res:binding>
+      <res:binding rdf:nodeID="r169c1"><res:variable>o</res:variable><res:value>-2.0 -77.5</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r170">
+      <res:binding rdf:nodeID="r170c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/areaMagnitude"/></res:binding>
+      <res:binding rdf:nodeID="r170c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#decimal">100000000000</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r171">
+      <res:binding rdf:nodeID="r171c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/areaRank"/></res:binding>
+      <res:binding rdf:nodeID="r171c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">75</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r172">
+      <res:binding rdf:nodeID="r172c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/callingCode"/></res:binding>
+      <res:binding rdf:nodeID="r172c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/+593"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r173">
+      <res:binding rdf:nodeID="r173c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/cctld"/></res:binding>
+      <res:binding rdf:nodeID="r173c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/.ec"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r174">
+      <res:binding rdf:nodeID="r174c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/centre"/></res:binding>
+      <res:binding rdf:nodeID="r174c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r175">
+      <res:binding rdf:nodeID="r175c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/currencyCode"/></res:binding>
+      <res:binding rdf:nodeID="r175c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">USD</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r176">
+      <res:binding rdf:nodeID="r176c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/drivesOn"/></res:binding>
+      <res:binding rdf:nodeID="r176c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">right</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r177">
+      <res:binding rdf:nodeID="r177c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedDate"/></res:binding>
+      <res:binding rdf:nodeID="r177c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#date">1830-05-13</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r178">
+      <res:binding rdf:nodeID="r178c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedDate"/></res:binding>
+      <res:binding rdf:nodeID="r178c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#date">1840-02-16</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r179">
+      <res:binding rdf:nodeID="r179c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedDate"/></res:binding>
+      <res:binding rdf:nodeID="r179c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#date">2008-09-28</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r180">
+      <res:binding rdf:nodeID="r180c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r180c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Gran_Colombia"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r181">
+      <res:binding rdf:nodeID="r181c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r181c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/2008_Constitution_of_Ecuador"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r182">
+      <res:binding rdf:nodeID="r182c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r182c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Declared</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r183">
+      <res:binding rdf:nodeID="r183c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r183c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Recognized</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r184">
+      <res:binding rdf:nodeID="r184c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r184c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">from</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r185">
+      <res:binding rdf:nodeID="r185c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/establishedEvent"/></res:binding>
+      <res:binding rdf:nodeID="r185c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">from Spain</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r186">
+      <res:binding rdf:nodeID="r186c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/float"/></res:binding>
+      <res:binding rdf:nodeID="r186c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">left</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r187">
+      <res:binding rdf:nodeID="r187c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/footnoteA"/></res:binding>
+      <res:binding rdf:nodeID="r187c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Including Galápagos.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r188">
+      <res:binding rdf:nodeID="r188c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/footnoteB"/></res:binding>
+      <res:binding rdf:nodeID="r188c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Sucre until 2000, replaced by the US$ and Ecuadorian centavo coins.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r189">
+      <res:binding rdf:nodeID="r189c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpNominal"/></res:binding>
+      <res:binding rdf:nodeID="r189c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/usDollar">1.09759E11</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r190">
+      <res:binding rdf:nodeID="r190c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpNominalPerCapita"/></res:binding>
+      <res:binding rdf:nodeID="r190c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/usDollar">6640.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r191">
+      <res:binding rdf:nodeID="r191c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpNominalRank"/></res:binding>
+      <res:binding rdf:nodeID="r191c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">64</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r192">
+      <res:binding rdf:nodeID="r192c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpNominalYear"/></res:binding>
+      <res:binding rdf:nodeID="r192c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2016</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r193">
+      <res:binding rdf:nodeID="r193c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpPpp"/></res:binding>
+      <res:binding rdf:nodeID="r193c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/usDollar">1.94845E11</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r194">
+      <res:binding rdf:nodeID="r194c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpPppPerCapita"/></res:binding>
+      <res:binding rdf:nodeID="r194c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/usDollar">11788.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r195">
+      <res:binding rdf:nodeID="r195c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gdpPppYear"/></res:binding>
+      <res:binding rdf:nodeID="r195c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2016</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r196">
+      <res:binding rdf:nodeID="r196c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/gini"/></res:binding>
+      <res:binding rdf:nodeID="r196c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">46.6</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r197">
+      <res:binding rdf:nodeID="r197c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/giniChange"/></res:binding>
+      <res:binding rdf:nodeID="r197c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">decrease</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r198">
+      <res:binding rdf:nodeID="r198c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/giniYear"/></res:binding>
+      <res:binding rdf:nodeID="r198c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2012</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r199">
+      <res:binding rdf:nodeID="r199c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/hdi"/></res:binding>
+      <res:binding rdf:nodeID="r199c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#double">0.732</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r200">
+      <res:binding rdf:nodeID="r200c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/hdiChange"/></res:binding>
+      <res:binding rdf:nodeID="r200c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">increase</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r201">
+      <res:binding rdf:nodeID="r201c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/hdiRank"/></res:binding>
+      <res:binding rdf:nodeID="r201c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">88</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r202">
+      <res:binding rdf:nodeID="r202c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/hdiYear"/></res:binding>
+      <res:binding rdf:nodeID="r202c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2014</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r203">
+      <res:binding rdf:nodeID="r203c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageCoat"/></res:binding>
+      <res:binding rdf:nodeID="r203c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Coat of arms of Ecuador.svg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r204">
+      <res:binding rdf:nodeID="r204c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageMap"/></res:binding>
+      <res:binding rdf:nodeID="r204c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Ecuador .svg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r205">
+      <res:binding rdf:nodeID="r205c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/latd"/></res:binding>
+      <res:binding rdf:nodeID="r205c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r206">
+      <res:binding rdf:nodeID="r206c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/latm"/></res:binding>
+      <res:binding rdf:nodeID="r206c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">9</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r207">
+      <res:binding rdf:nodeID="r207c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/latns"/></res:binding>
+      <res:binding rdf:nodeID="r207c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">S</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r208">
+      <res:binding rdf:nodeID="r208c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/left"/></res:binding>
+      <res:binding rdf:nodeID="r208c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Ethnic group</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r209">
+      <res:binding rdf:nodeID="r209c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/left"/></res:binding>
+      <res:binding rdf:nodeID="r209c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Language</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r210">
+      <res:binding rdf:nodeID="r210c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/left"/></res:binding>
+      <res:binding rdf:nodeID="r210c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Religion</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r211">
+      <res:binding rdf:nodeID="r211c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/legislature"/></res:binding>
+      <res:binding rdf:nodeID="r211c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/National_Assembly_(Ecuador)"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r212">
+      <res:binding rdf:nodeID="r212c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/longd"/></res:binding>
+      <res:binding rdf:nodeID="r212c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">78</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r213">
+      <res:binding rdf:nodeID="r213c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/longew"/></res:binding>
+      <res:binding rdf:nodeID="r213c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">W</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r214">
+      <res:binding rdf:nodeID="r214c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/longm"/></res:binding>
+      <res:binding rdf:nodeID="r214c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">21</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r215">
+      <res:binding rdf:nodeID="r215c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/n"/></res:binding>
+      <res:binding rdf:nodeID="r215c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Category:Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r216">
+      <res:binding rdf:nodeID="r216c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/nationalAnthem"/></res:binding>
+      <res:binding rdf:nodeID="r216c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">File:Anthem of Ecuador.ogg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r217">
+      <res:binding rdf:nodeID="r217c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/north"/></res:binding>
+      <res:binding rdf:nodeID="r217c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Gulf of Panama</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r218">
+      <res:binding rdf:nodeID="r218c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/northwest"/></res:binding>
+      <res:binding rdf:nodeID="r218c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Pacific Ocean</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r219">
+      <res:binding rdf:nodeID="r219c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/populationCensus"/></res:binding>
+      <res:binding rdf:nodeID="r219c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">14483499</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r220">
+      <res:binding rdf:nodeID="r220c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/populationCensusYear"/></res:binding>
+      <res:binding rdf:nodeID="r220c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2010</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r221">
+      <res:binding rdf:nodeID="r221c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/populationDensityRank"/></res:binding>
+      <res:binding rdf:nodeID="r221c1"><res:variable>o</res:variable><res:value datatype="http://dbpedia.org/datatype/stone">151.0</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r222">
+      <res:binding rdf:nodeID="r222c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/populationEstimateRank"/></res:binding>
+      <res:binding rdf:nodeID="r222c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">65</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r223">
+      <res:binding rdf:nodeID="r223c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/populationEstimateYear"/></res:binding>
+      <res:binding rdf:nodeID="r223c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/2001/XMLSchema#integer">2015</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r224">
+      <res:binding rdf:nodeID="r224c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/right"/></res:binding>
+      <res:binding rdf:nodeID="r224c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">percent</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r225">
+      <res:binding rdf:nodeID="r225c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/southwest"/></res:binding>
+      <res:binding rdf:nodeID="r225c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Pacific Ocean</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r226">
+      <res:binding rdf:nodeID="r226c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/sovereigntyType"/></res:binding>
+      <res:binding rdf:nodeID="r226c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ecuadorian_War_of_Independence"/></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r227">
+      <res:binding rdf:nodeID="r227c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/title"/></res:binding>
+      <res:binding rdf:nodeID="r227c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Ethnic groups in Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r228">
+      <res:binding rdf:nodeID="r228c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/title"/></res:binding>
+      <res:binding rdf:nodeID="r228c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Languages in Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r229">
+      <res:binding rdf:nodeID="r229c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/title"/></res:binding>
+      <res:binding rdf:nodeID="r229c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Religion in Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r230">
+      <res:binding rdf:nodeID="r230c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/titlebar"/></res:binding>
+      <res:binding rdf:nodeID="r230c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">#ddd</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r231">
+      <res:binding rdf:nodeID="r231c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/utcOffset"/></res:binding>
+      <res:binding rdf:nodeID="r231c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">−5−6</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r232">
+      <res:binding rdf:nodeID="r232c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/voy"/></res:binding>
+      <res:binding rdf:nodeID="r232c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Ecuador</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r233">
+      <res:binding rdf:nodeID="r233c0"><res:variable>p</res:variable><res:value rdf:resource="http://dbpedia.org/property/west"/></res:binding>
+      <res:binding rdf:nodeID="r233c1"><res:variable>o</res:variable><res:value datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Galápagos Islands</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r234">
+      <res:binding rdf:nodeID="r234c0"><res:variable>p</res:variable><res:value rdf:resource="http://purl.org/linguistics/gold/hypernym"/></res:binding>
+      <res:binding rdf:nodeID="r234c1"><res:variable>o</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Republic"/></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>
